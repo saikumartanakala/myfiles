@@ -1,0 +1,6 @@
+Your instance is ready!
+
+Your instance URL:https://dev63094.service-now.com
+
+Username: admin
+Current password: yJ3v!Wh!Wa2B

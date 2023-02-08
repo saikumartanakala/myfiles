@@ -1,0 +1,557 @@
+
+Q1.(Q) Comment on the output of this C code?
+#include  < stdio.h >
+int const print()
+{
+printf(Sanfoundry.com);
+return 0;
+}
+void main()
+{
+print();
+}
+Options	Your Answer	Correct Answer	Answers
+A			Error because function name cannot be preceded by const                                                                                                     
+B			**Sanfoundry.com
+C			Sanfoundry.com is printed infinite times
+D			Blank screen, no output
+Q2.(Q) C programming language was developed by
+Options	Your Answer	Correct Answer	Answers
+A			**Dennis Ritchie
+B			Ken Thompson
+C			Bill Gates
+D			Peter Norton
+E			Donald Hearn.
+Q3.(Q) Which of the datatypes have size that is variable?
+Options	Your Answer	Correct Answer	Answers
+A			int
+B			**struct
+C			float
+D			double
+
+Q4.(Q) What is the difference between the following 2 codes?
+#include< stdio.h >
+int main()
+{
+int d, a = 1, b = 2;
+d = a++ + ++b;
+printf(%d %d %d, d, a, b);
+}
+#include //Program 2
+int main()
+{
+int d, a = 1, b = 2;
+d = a++ +++b;
+printf(%d %d %d, d, a, b);
+}
+Options	Your Answer	Correct Answer	Answers
+A			No difference as space doesn’t make any difference, values of a, b, d are same in both the case
+B			Space does make a difference, values of a, b, d are different
+C			Program 1 has syntax error, program 2 is not
+D			**Program 2 has syntax error, program 1 is not
+Q5.(Q) Which of the following is not a pointer declaration?
+Options	Your Answer	Correct Answer	Answers
+A			char a[10];
+B			char a[] = {‘1’, ‘2’, ‘3’, ‘4’};
+C			char *str;
+D			**char a;
+
+Q6.(Q) The benefit of using enumeration data types in a program is
+Options	Your Answer	Correct Answer	Answers
+A			Program becomes shorter
+B			Program becomes longer
+C			**Program is easy to understand
+D			Program executes faster
+E			Program become complex.
+
+Q7.(Q) Which of the following declaration is not supported by C?
+Options	Your Answer	Correct Answer	Answers
+A			**String str;
+B			char *str;
+C			float str = 3e2;
+D			Both String str; & float str = 3e2
+
+Q8.(Q) The name of the variable used in one function cannot be used in another function
+Options	Your Answer	Correct Answer	Answers
+A			True
+B			**False
+C			May be
+D			None of the mentioned
+Q9.(Q) What is the output of this C code?
+#include<stdio.h >
+int main()
+{
+j = 10;
+printf(%dn, j++);
+return 0;
+}
+Options	Your Answer	Correct Answer	Answers
+A			10
+B			11
+C			**Compile time error
+D			0
+
+Q10.(Q) What is the output of this C code?
+#include< stdio.h >
+int main()
+{
+printf(C programming %s, Class byn%s Sanfoundry, WOW);
+}
+Options	Your Answer	Correct Answer	Answers
+A			C programming Class by
+WOW Sanfoundry
+B			C programming Class by
+%s Sanfoundry
+C			***C programming Class by
+%s Sanfoundry
+D			Compilation error
+
+Q11.(Q) What is the output of this C code?
+#include< stdio.h >
+void main()
+{
+int k = 4;
+float k = 4;
+printf(%d, k)
+}
+Options	Your Answer	Correct Answer	Answers
+A			**Compile time error
+B			4
+C			4.0000000
+D			4.4
+
+Q12.(Q) A variable declared in a function can be used in main
+Options	Your Answer	Correct Answer	Answers
+A			True
+B			**False
+C			True if it is declared static
+D			None of the mentioned
+
+Q13.(Q) Which of the following is “stringizing operator”?
+Options	Your Answer	Correct Answer	Answers
+A			$
+B			%
+C			**#
+D			?
+E			&&.
+
+Q14.(Q) What is the return value of the following function if the function is called as
+int value = fun(6);
+int fun(int n)
+{
+if( n = = 1 || n = = 2) return 1;
+else return( fun(n-1) + fun(n-2) );
+}
+Options	Your Answer	Correct Answer	Answers
+A			1
+B			2
+C			Syntax error
+D			**8
+E			5.
+
+Q15.(Q) Comment on the output of this C code?
+#include < stdio.h >
+int main()
+{
+const int i = 10;
+int *ptr = &i;
+*ptr = 20;
+printf(%dn, i);
+return 0;
+}
+Options	Your Answer	Correct Answer	Answers
+A			Compile time error
+B			**Compile time warning and printf displays 20
+C			Undefined behaviour
+D			10
+
+Q16.(Q) Which of the following declaration is illegal?
+Options	Your Answer	Correct Answer	Answers
+A			char *str = “Best C programming classes ”;
+B			char str[] = “Best C programming classes ”;
+C			char str[20] = “Best C programming classes ”;
+D			**char[] str = “Best C programming classes ”;
+
+
+Q17.(Q) What is the result of the expression 6+12*3–4/2 ?
+Options	Your Answer	Correct Answer	Answers
+A			22
+B			25
+C			**40
+D			52
+E			45.
+
+Q18.(Q) What is the output of this C code?
+#include < stdio.h >
+void main()
+{
+int x = 4;
+int *p = &x;
+int *k = p++;
+int r = p - k;
+printf(%d, r);
+}
+Options	Your Answer	Correct Answer	Answers
+A			4
+B			8
+C			**1
+D			Run time error
+
+Q19.(Q) Which of the following is the function prototype of a function f1 that receives an int pointer and float reference and returns an int pointer?
+Options	Your Answer	Correct Answer	Answers
+A			int f1(int &, float *)
+B			float* f1(float &, int &)
+C			int* f1 (int *, float &)
+D			**int f1 *(int *, float &)
+E			int f1(&int,*float).
+
+Q20.(Q) Does this compile without error?
+#include< stdio.h >
+int main()
+{
+int k;
+{
+int k;
+for (k = 0; k < 10; k++);
+}
+}
+Options	Your Answer	Correct Answer	Answers
+A			**Yes
+B			No
+C			Depends on the compiler
+D			Depends on the C standard implemented by compilers
+Q21.(Q) What is the meaning of the following declaration?
+char (*(*x())[])();
+Options	Your Answer	Correct Answer	Answers
+A			**x is a function returning pointer to array[] of pointer to function returning char
+B			x is a function returning pointer to array[] of pointer to function returning pointer
+C			x is a pointer returning pointer to array [] of pointer to function returning char
+D			x is a function returning pointer to array[] of characters to function returning char
+E			Invalid declaration.
+view solution
+Score : 1 MarksQuestion Type : Single ChoiceTime Taken For Answering: 15.231 Seconds
+Passage Description
+Q22.(Q) The getchar() function reads a
+Options	Your Answer	Correct Answer	Answers
+A			String from a file
+B			**Character from a file
+C			String from the keyboard
+D			Character from the keyboard
+E			Word from the file.
+
+Q23.(Q) void foo (int x, int & y)
+{
+int c;
+c = x + y;
+y = 2 * c;
+x = 2 * x;
+}
+“c” is called
+Options	Your Answer	Correct Answer	Answers
+A			Actual parameter
+B			**Local variable
+C			Formal parameter
+D			Local parameter
+E			Global variable.
+
+Q24.(Q)Which of the following format identifier can never be used for the variable var? #include< stdio.h > int main()
+{
+char *var = Advanced Training in C by Sanfoundry.com;
+}
+Options	Your Answer	Correct Answer	Answers
+A			**%f
+B			%d
+C			%c
+D			%s
+Q25.(Q) #define VALUE 1+2
+main() {
+printf(%d and %dn,VALUE/VALUE,VALUE*3);
+}
+What will be the out come of above program?
+Options	Your Answer	Correct Answer	Answers
+A			1 and 6
+B			1 and 9
+C			5 and 6
+D			**5 and 7
+E			5 and 9
+
+Q26.(Q) Which keyword is used to prevent any changes in the variable within a C program?
+Options	Your Answer	Correct Answer	Answers
+A			immutable
+B			mutable
+C			**const
+D			volatile
+Q27.(Q) What is the output of this C code?
+#include< stdio.h >
+#include< conio.h >
+int main()
+{
+char *str = x;
+char c = x;
+char ary[1];
+ary[0] = c;
+printf(%d %d, strlen(str), strlen(ary));
+return 0;
+}
+Options	Your Answer	Correct Answer	Answers
+A			1 1
+B			2 1
+C			2 2
+D			**undefined value
+Q28.(Q) Look at the following program and chose the right option for it:
+main() {
+extern int i;
+i=20;
+printf(%d,i);
+}
+Options	Your Answer	Correct Answer	Answers
+A			20
+B			0
+C			Garbage
+D			Compilation error
+E			**Runtime error.
+
+Q29.(Q) What will be the output of following program (on 32 bit compiler)?
+int main( )
+{
+char a=2*2+2;
+printf(%d,a);
+return 0;
+}
+Options	Your Answer	Correct Answer	Answers
+A			0
+B			Garbage
+C			**6
+D			8
+
+Q30.(Q) What will be the output of following program ?
+int main( )
+{
+int x=A;
+printf(%02X,x);
+return 0;
+}
+Options	Your Answer	Correct Answer	Answers
+A			65
+B			97
+C			Error
+D			**41
+
+Q31.(Q)If the first and second letters in the word COMMUNICATIONS were interchanged, also the third and the fourth letters, the fifth and sixth letters, and so on. Which letter would be the tenth letter counting from your right?
+Options	Your Answer	Correct Answer	Answers
+A			U
+B			A
+C			T
+D			**N
+
+Q32.(Q)If the letters of the word VERTICAL are arranged alphabetically, how many letters will remain at the same position?
+Options	Your Answer	Correct Answer	Answers
+A			E
+B			**C
+C			G
+D			P
+
+Q33.(Q)In each of the following questions, find out which of the letter-senes follows the given rule.Number of letters skipped in betweenthe adjacent letters in the series is equal
+Options	Your Answer	Correct Answer	Answers
+A			SUXADF
+B			**RVZDHL
+C			HKNGSW
+D			RVZDFG
+
+Q34.(Q)How many such pairs of letters are there in the word SUBSTANCE, each of which has as many letters between them in the word (in both forward and backward directions) as in the English alphabet?
+Options	Your Answer	Correct Answer	Answers
+A			None
+B			One
+C			Two
+D			**Three
+E			More than three
+
+Q35.(Q)Find at what time between 8 and 9 Oclock will the hands of a clock be in the same straight line but not together.
+Options	Your Answer	Correct Answer	Answers
+A			**10(10/11)min past 8
+B			50(10/11)min past 8
+C			10(12/11)min past 8
+D			10min past 8
+
+Q36.(Q)The day before the day before yesterday is three days after Saturday. What day is it today?
+Options	Your Answer	Correct Answer	Answers
+A			**Tuesday
+B			Wednesday
+C			Thursday
+D			Friday
+
+Q37.(Q) In this question given below an unfolded dice is given in the left side while in the right side, four answer choices are given in the form of complete dices. You are required to select the correct answer choice(s) .which is/are formed by folding the unfolded dice.
+
+Options	Your Answer	Correct Answer	Answers
+A			option A
+B			option B
+C			option C
+D			**option D
+
+Q38.(Q) In the each question given below an unfolded dice is given in the left side while in the right
+side, four answer choices are given in the form of complete dices. You are required to select the correct answer choice(s) .which is/are formed by folding the unfolded dice.
+
+Options	Your Answer	Correct Answer	Answers
+A			option A
+B			option B
+C			option C
+D			**option D
+
+Q39.(Q)In the following problems from the given answer figures, select the one in which the problem figure is hidden/ embedded.
+
+Options	Your Answer	Correct Answer	Answers
+A			**a
+B			b
+C			c
+D			d
+
+Q40.(Q)In the following problems from the given answer figures, select the one in which the problem figure is hidden/ embedded.
+
+Options	Your Answer	Correct Answer	Answers
+A			**a
+B			b
+C			c
+D			d
+
+Q41.(Q)In each of the following questions, choose the answer figure which is embedded in the problem figure.
+
+Options	Your Answer	Correct Answer	Answers
+A			**a
+B			b
+C			c
+D			d
+
+Q42.(Q)In each of the following questions, find out which of the figures (a),(b),(c) and (d) can be formed from the pieces given in problem figure.
+
+Options	Your Answer	Correct Answer	Answers
+A			**Option A
+B			Option B
+C			Option C
+D			Option D
+
+Q43.(Q)In each of the following questions, find out which of the figures (a),(b),(c) and (d) can be formed from the pieces given in problem figure.
+
+Options	Your Answer	Correct Answer	Answers
+A			Option A
+B			**Option B
+C			Option C
+D			Option D
+
+Q44.(Q)In each of the following questions, find out which of the figures (a),(b),(c) and (d) can be formed from the pieces given in problem figure.
+
+Options	Your Answer	Correct Answer	Answers
+A			Option A
+B			**Option B
+C			Option C
+D			Option D
+n
+Q45.(Q)In the following questions, group the given figures into three classes using each figure only once.
+
+Options	Your Answer	Correct Answer	Answers
+A			
+(7, 8, 9), (2, 4, 3), (1, 5, 6)
+
+B			
+(1, 3, 2), (4, 5, 7), (6. 8, 9)
+
+C			
+(1, 6, 8), (3, 4, 7), (2 5, 9)
+
+D			
+***(1, 6, 9), (3, 4, 7), (2, 5, 8)
+
+
+Q46.(Q)In each of the following questions, group the given figures into three classes using each figure only once.
+
+Options	Your Answer	Correct Answer	Answers
+A			
+(1, 2, 3), (4, 8, 9), (5, 7, 6)
+
+B			
+(4, 5, 7), (3, 1, 2), (7, 8, 9)
+
+C			
+***(1, 3, 7), (8, 9, 4), (2, 5, 6)
+
+D			
+(3, 5, 6), (8, 7, 4), (9, 1, 2)
+
+
+Q47.(Q)This question is based on the letter series. In each of these series, some letters are missing. Select the correct alternative.
+bc_bca_ cab_ ab_a_ca
+Options	Your Answer	Correct Answer	Answers
+A			abcab
+B			cabac
+C			**abccb
+D			cabca
+
+Q48.(Q)In each of the following letter series, some of the letters are missing. Choose the correct alternatives.
+aa_aabb_b_aa_aabb_bb
+Options	Your Answer	Correct Answer	Answers
+A			bbbaa
+B			bbbba
+C			aabbb
+D			**babba
+
+Q49.(Q) Find the water image of the set of letters and/or digits given in the question figure out of the four answer choices (a), (b), (c) and (d).
+96FSH52
+
+Options	Your Answer	Correct Answer	Answers
+A			Option A
+B			Option B
+C			**Option C
+D			Option D
+
+Q50.(Q)In each of the following questions, a word has been given, followed by four other words. One of which can be formed by using the letters from the given word. Find that word.
+ULTRANATIONALISM
+Options	Your Answer	Correct Answer	Answers
+A			ULTRAMONTANE
+B			ULTRAMODERN
+C			**ULTRAIST                                  
+D			ULULATE
+
+Q51.(Q) A mixture of certain quantity of milk with 20 liters of water of worth Rs 10 per liter. If pure milk is of worth Rs 15 per liter, how much milk is there in the mixture ?
+Options	Your Answer	Correct Answer	Answers
+A			**40 liters
+B			34 liters
+C			12 liters
+D			45 liters
+
+Q52.(Q) John bought 20 kg of wheat at the rate of Rs.8.50 per kg and 35 kg at the rate of Rs.8.75 per kg. He mixed the two. Approximately at what price per kg should he sell the mixture to make 40% profit at the cost price?
+Options	Your Answer	Correct Answer	Answers
+A			**Rs.12
+B			Rs.8
+C			Rs.16
+D			Rs.20
+
+Q53.(Q) In 1 kg mixture of iron and manganese, 20% is manganese. How much iron should be added so that the proportion of manganese becomes 10% ?
+Options	Your Answer	Correct Answer	Answers
+A			1.5 kg
+B			2 kg
+C			5 kg
+D			**1 kg
+
+Q54.(Q)A man has Rs. 480 in the denominations of one-rupee notes, five-rupee notes and ten-rupee notes. The number of notes of each denomination is equal. What is the total number of notes that he has ?
+Options	Your Answer	Correct Answer	Answers
+A			45
+B			60
+C			75
+D			**90
+
+Q55.(Q)A woman says, If you reverse my own age, the figures represent my husbands age. He is, of course, senior to me and the difference between our ages is one-eleventh of their sum. The womans age is
+Options	Your Answer	Correct Answer	Answers
+A			23 years
+B			34 years
+C			**45 years
+D			None of these
+
+Q56.(Q)In a class, the average height of 35 girls was measured 160 cm. Later on, it was discovered that the height of one of the girl was misread as 144 cm, while her actual height was 104 cm. What was the actual average height of girls in the class?
+Options	Your Answer	Correct Answer	Answers
+A			159.86 cm
+B			158.54 cm
+C			159.56 cm
+D			158.47 cm
+E			**None of these
+
+
+
